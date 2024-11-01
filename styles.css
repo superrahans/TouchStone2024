@@ -10,38 +10,62 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f8f9fa; /* Light background color for the header */
-    padding: 10px 20px; /* Padding for header */
+    background-color: #f8f9fa;
+    padding: 10px 20px;
 }
 
 .logo img {
     display: block;
 }
 
+.header-image img {
+    width: 100%;
+    max-width: 500px; /* Limit width of header image */
+    height: auto;
+}
+
 nav {
-    flex-grow: 1; /* Allow navigation to grow and take available space */
+    flex-grow: 1;
 }
 
 .menu {
-    list-style-type: none; /* Remove bullet points from the list */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Display the list items in a row */
-    justify-content: flex-end; /* Align items to the right */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu li {
-    margin: 0 15px; /* Space between menu items */
+    margin: 0 15px;
 }
 
 .menu a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007bff; /* Link color */
-    padding: 5px 10px; /* Padding around links */
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
 }
 
 .menu a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 /* Additional styles for other sections can go here */
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
